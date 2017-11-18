@@ -3,11 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Nerds</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
         <nav class="main-navigation">
-          <a classs="main-header-logo" href="#">
+          <a classs="main-header-logo" href="index.html.html">
                 <img src="img/nerds-logo.svg" width="667" height="271" alt="Логотип студии Nerds">
             </a>
           <ul class="site-navigation">
@@ -17,16 +20,14 @@
              <li><a href="#">Контакты</a></li>
           </ul>
            <a class="cart" href="#">Корзина</a>
+           <h1 class="page-title">Магазин готовых шаблонов</h1>
         </nav>
-        <h1>Магазин готовых шаблонов</h1>
     </header>
     <main class="container">
-    <span>Сортировать:</span>
+    <span class="sort">Сортировать:</span>
         <a class="assortment active" href="#">По цене</a>
         <a class="assortment" href="#">По типу</a>
         <a class="assortment" href="#">По названию</a>
-        <details>
-          <summary><a class="assortment control active" href="#">down</a></summary>
         <a class="assortment control active" href="#">down</a>
         <a class="assortment control" href="#">up</a>
       <form class="filter" method="get" action="https://echo.htmlacademy.ru">
@@ -131,7 +132,7 @@
     </main>
     <footer class="main-footer">
         <div class="footer-social">
-            <ul>
+            <ul class="social-networks">
                 <li><a class="social-button" href="#">Вконтакте</a></li>
                 <li><a class="social-button" href="#">Фэйсбук</a></li>
                 <li><a class="social-button" href="#">Инстаграм</a></li>
@@ -142,7 +143,7 @@
             <p>Скидка 10% для друзей из социальных сетей.</p>
         </div>
         <div class="modal">
-            <form action="https://echo.htmlacademy.ru" method="post">
+            <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
              <fieldset>
               <legend>Напишите нам:</legend>
               <p class="modal-item">

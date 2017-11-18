@@ -3,14 +3,17 @@
  <head>
    <meta charset="utf-8">
    <title>Веб-студия"Nerds"</title>
+   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+   <link href="css/normalize.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
  </head>
  <body>
    <header class="main-header">
      <nav class="main-navigation">
        <a class="main-header-logo" href="#">
-                    <img src="img/nerds-logo.svg" width="667" height="271 alt="Логотип Веб-студии Nerds">
-                </a>
-        <ul class="site-navigation">
+          <img src="img/nerds-logo.svg" width="667" height="271 alt="Логотип Веб-студии Nerds">
+       </a>
+       <ul class="site-navigation">
          <li><a href="#">Студия</a></li>
          <li><a href="#">Клиенты</a></li>
          <li class="site-navigation-current"><a href="#">Магазин</a></li>
@@ -34,59 +37,43 @@
            <img src="img/notebookpicture.jpg" alt="Сайты" width="300" height="146">
            <h3>Веб-сайты</h3>
            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-           <a class="btn" href="#">Заказать</a>
+           <a class="order-button-one" href="#">Заказать</a>
           </li>
           <li class="feature-item">
            <img src="img/smartphonepicture.jpg" width="300" height="146" alt="Приложения">
            <h3>Приложения</h3>
            <p>Покорите топ-10 приложений в AppStrore и Google Play</p>
-           <a class="btn" href="#">Заказать</a>
+           <a class="order-button-two" href="#">Заказать</a>
           </li>
           <li class="feature-item">
            <img src="img/presentationpicture.jpg" width="300" height="146" alt="Презентации">
            <h3>Презентации</h3>
            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-           <a class="btn" href="#">Заказать</a>
+           <a class="order-button-three" href="#">Заказать</a>
           </li>
         </ul>
-    </section>
-    <section class="information">
-        <ul class="about-us">
-          <li class="studio-item">
-           <p><b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b></p>
-           <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
-          </li>
-        </ul>
+     </section>
+     <section class="studio">
+        <h3 class="studio-caption">Мы - маленькая, но гордая дизайн студия из Краснодара.</h3>
+        <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.
+        </p>
+        <h3>Выполняем заказы на разработку:</h3>
         <ul class="development-orders">
-          <li class="type-orders">
-           <b>Выполняем заказы на разработку:</b>
-           <p>Веб-сайтов любой сложности</p>
-          </li>
-          <li class="type-orders">
-           <p>Мобильных приложений под ios и android</p>
-          </li>
-          <li class="type-orders">
-           <p>Слайдшоу и видео для корпоративных презентаций</p>
+          <li class="type-orders">Веб-сайтов любой сложности</li>
+          <li class="type-orders">Мобильных приложений под ios и android</li>
+          <li class="type-orders">Слайдшоу и видео для корпоративных презентаций</li>
         </ul>
-    </section>
-    <section>
+     </section>
      <div class="statistics">
-        <img src="img/nerdsillustration.jpg" width="360" height="208"  alt="Логотип Nerds">
-        <p>С 2004 года любим точность во всем</p>
-        <tr>
-            <th>146%</th>
-            <th>100%</th>
-            <th>50%</th>
-        </tr>
-        <tr>
-            <td>Уровень самоотдачи</td>
-            <td>Соблюдение сроков</td>
-            <td>Минимальная предоплата</td>
-        </tr>
-     </table>
-    </section>
-    <section class="portfolio">
+       <img src="img/nerdsillustration.jpg" width="360" height="208"  alt="Логотип Nerds">
+       <p>С 2004 года любим точность во всем</p>
         <ul class="indicators">
+          <li class="indicators-type">146% Уровень самоотдачи</li>
+          <li class="indicators-type">100% Соблюдение сроков</li>
+          <li class="indicators-type">50% минимальная предоплата</li>
+        </ul>
+     </div>
+     <section class="portfolio">
         <ul class="project">
           <li class="logo">
            <a href="https://htmlacademy.ru/intensive/htmlcss">
@@ -94,9 +81,9 @@
            </a>
           </li>
           <li class="logo">
-           <a href="">
-            <img src="img/barbershoplogo.png" width="209" height="90" alt="barbershop">
-           </a>
+            <a href="">
+             <img src="img/barbershoplogo.png" width="209" height="90" alt="barbershop">
+            </a>
           </li>
           <li class="logo">
            <a href="">
@@ -109,9 +96,9 @@
            </a>
           </li>
         </ul>
-    </section>
+     </section>
       <img src="img/map1.jpg" width="1440" height="416" alt="Карта">
-      <div class="maps">
+     <div class="maps">
       <form>
         <h4 class="visually-hidden">Nerds design studio</h4>
           <p>
@@ -122,11 +109,11 @@
           </p>
           <input type="submit" value="Напишите нам">
       </form>
-      </div>
- </main>
+     </div>
+   </main>
     <footer class="main-footer">
     <div class="footer-social">
-       <ul>
+       <ul class="social-networks">
          <li><a class="social-button" href="#">Вконтакте</a></li>
          <li><a class="social-button" href="#">Фэйсбук</a></li>
          <li><a class="social-button" href="#">Инстаграм</a></li>
@@ -137,7 +124,7 @@
         <p>Скидка 10% для друзей из социальных сетей.</p>
     </div>
     <div class="modal">
-      <form action="https://echo.htmlacademy.ru" method="post">
+      <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
        <fieldset>
          <legend>Напишите нам:</legend>
           <p class="modal-item">
