@@ -1,0 +1,396 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Roboto", "Arial", sans-serif;
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: 400;
+   color: #283136;
+   background-color: #ffffff;
+ }
+ 
+ .inner-page {
+   color: #000000;
+   background-color: #ffffff;
+ }
+ 
+ a {
+   text-decoration: none;
+ }
+ 
+ .main-navigation {
+   font-size: 16px;
+   line-height: : 30px;
+   color: #000000;
+   background-color: #eeeeee;
+ }
+ 
+ .site-navigation {
+   list-style: none;
+ }
+ 
+ .site-navigation a, .basket a {
+   color: #000000
+ }
+ 
+ .site-navigation a:hover {
+   color: #fb565a;
+ }
+ 
+ .cart:hover {
+   color: #fb565a;
+ }
+ 
+ .features {
+   text-align: center;
+ }
+ 
+ .features h3 {
+   font-size: 24px;
+   line-height: 30px;
+   color: #000000;
+   
+ }
+ 
+ .features p {
+   color: #283136;
+   font-size: 16px;
+   line-height: 24px;
+   
+ }
+ 
+ .order-button-one {
+   text-align: center;
+   color: #ffffff;
+   text-transform: uppercase;
+   background-color: #fb565a;
+}
+ 
+ .order-button-two {
+   text-align: center;
+   color: #ffffff;
+   text-transform: uppercase;
+   background-color: #00ca74;
+ }
+ 
+ .order-button-three {
+   text-align: center;
+   color: #ffffff;
+   text-transform: uppercase;
+   background-color: #efc84a;
+ }
+ 
+ .order-button-one:hover, .order-button-one:focus {
+   background-color: #e74246;
+ }
+ 
+ .order-button-one:active {
+   background-color: #d7373b;
+ }
+ 
+ .order-button-two:hover, .order-button-two:focus {
+   background-color: #00bc6c;
+ }
+ 
+ .order-button-two:active {
+   background-color: #00aa62;
+ }
+ 
+ .order-button-three:hover, .order-button-three:focus {
+   background-color: #eab534;
+ }
+ 
+ .order-button-three:active {
+   background-color: #e5a722;
+ }
+ 
+ .studio-caption {
+   font-size: 45px;
+   line-height: 45px;
+   color: #000000;
+ }
+ .orders {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   color: #000000;
+}
+ 
+ .development-orders {
+   list-style: none;
+ }
+ 
+ .indicators {
+   list-style: none;
+ }
+ 
+ .indicators-type {
+   line-height: 18px;
+ }
+ 
+ .statistics p {
+   font-weight: 700;
+   color: #000000;
+ }
+ 
+ .digits {
+   list-style: none;
+   font-weight: 700;
+   font-size: 45px;
+   color: #000000;
+ }
+ .project {
+   list-style: none;
+ }
+ .maps h4 {
+   font-size: 18px;
+   line-height: 30px;
+   color: #000000;
+ }
+ 
+ .maps p {
+   font-size: 16px;
+   line-height: 18px;
+   color: #666666;
+ }
+ 
+ .maps input {
+   text-transform: uppercase;
+   color: #ffffff;
+   background-color: #fb565a;
+ }
+ 
+ .maps input:hover {
+   background-color: #e74246;
+ }
+ 
+ .maps input:focus {
+   background-color: #d7373b;
+ }
+ 
+ .page-title {
+   font-size: 55px;
+   line-height: 55px;
+   text-align: center;
+ }
+ 
+ .sort {
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 18px;
+ }
+ 
+ .assortment {
+   text-transform: uppercase;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 18px;
+   color: rgba(0, 0, 0, 0.3);
+ }
+ 
+ .assortment:hover {
+   color: rgba(0, 0, 0, 0.6);
+ }
+ 
+ .assortment:focus {
+   color: rgb(0, 0, 0);
+ }
+ 
+ .filter fieldset {
+   border: none;
+ }
+ 
+ .filter legend {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 30px;
+ }
+ .filter label {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20;
+   color: #283136;
+ }
+ 
+ .filter label:hover {
+   color: #000000;
+ }
+ 
+ .filter-button {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 18px;
+   color: #000000;
+   background-color: #eeeeee;
+ }
+ 
+ .filter-button:hover {
+   background-color: #dfdfdf;
+ }
+ 
+ .filter-button:active {
+   background-color: #d5d5d5;
+   opacity: 0, 3;
+ }
+ 
+ .templates-caption {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 30px;
+   color: #000000;
+ }
+ 
+ .templates p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 18px;
+   color: #666666;
+ }
+ 
+ .catalog-price-button {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 18px;
+   color: #ffffff;
+   background-color: #fb565a;
+ }
+ 
+ .catalog-price-button:hover {
+   background-color: #e74246;
+ }
+ 
+ .catalog-price-button:active {
+   background-color: #d7373b;
+ }
+ 
+ .pagination-list {
+   list-style: none;
+ }
+ 
+ .pagination-item a {
+   color: #000000;
+   background-color: #eeeeee;
+ }
+ 
+ .pagination-item a:hover {
+   background-color: #dfdfdf;
+ }
+ 
+ .pagination-item a:focus {
+   background-color: #d5d5d5;
+ }
+ 
+ .pagination-item-current a:active {
+   background-color: #ffffff;
+   border-color: #dbdbdb;
+ }
+ 
+ .social-networks {
+   list-style: none;
+ }
+ 
+ .footer-social {
+   text-align: center;
+ }
+ 
+ .social-button {
+   color: #ffffff;
+   background-color: #e1e1e1;
+ }
+ 
+ .social-button:hover {
+   background-color: #e74246;
+ }
+ 
+ .social-button:focus {
+   background-color: #d7373b
+ }
+ 
+ .footer-social b {
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 36px;
+   color: #000000;
+ }
+ 
+ .modal {
+   color: #000000;
+   background-color: #ffffff;
+ }
+ 
+ .modal legend {
+   font-weight: 500;
+   font-size: 45px;
+   line-height: 45px;
+ }
+ 
+ .feedback-form input[type="text"] {
+   font-size: 16px;
+   font-weight: regular;
+   line-height: 18px;
+   color: #000000;
+   background-color: #ffffff;
+   border: 2px solid #d7dcde;
+ }
+ 
+ .feedback-form input:hover {
+   border-color: #b4b9bb;
+ }
+ 
+ .feedback-form input:focus {
+   border-color: #000000;
+ }
+ 
+ .feedback-form textarea {
+   font-size: 16px;
+   font-weight: regular;
+   line-height: 18px;
+   color: #000000;
+   text-transform: none;
+   background-color: #ffffff;
+   border: 2px solid #d7dcde;
+ }
+ 
+ .feedback-form textarea:hover {
+   border-color: #b4b9bb;
+ }
+ 
+ .feedback-form textarea:focus {
+   border-color: #000000;
+ }
+ 
+ .feedback-form .modal-item {
+   font-size: 16px;
+   font-weight: bold;
+   line-height: 18px;
+ }
+ 
+ .feedback-form .button {
+   text-align: center;
+   color: #ffffff;
+   vertical-align: middle;
+   text-transform: uppercase;
+   background-color: #fb565a;
+   border: none;
+ }
+ 
+ .feedback-form .button:hover {
+   background-color: #e74246;
+ }
+ 
+ .feedback-form .button:focus {
+   background-color: #d7373b;
+ }
+ 
+ .feedback-form .modal-close {
+   background-color: #fecccd;
+ }
+ 
+ .feedback-form .modal-close:hover {
+   background-color: #fb565a;
+ }
+ 
+ .feedback-form .modal-close:focus {
+   background-color: #ffeeee
+ }
