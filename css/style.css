@@ -20,7 +20,7 @@ body {
  
  .main-navigation {
    font-size: 16px;
-   line-height: : 30px;
+   line-height: 30px;
    color: #000000;
    background-color: #eeeeee;
  }
@@ -42,7 +42,7 @@ body {
  }
  
  .features {
-   text-align: center;
+   display: inline-block;
  }
  
  .features h3 {
@@ -393,4 +393,209 @@ body {
  
  .feedback-form .modal-close:focus {
    background-color: #ffeeee
+ }
+
+ /* ----- Сеточные стили ----- */
+ 
+ .main-header {
+   margin-bottom: 75px;
+   /* Временно для сетки */
+   min-height: 545px;
+   background-color: #eeeeee;
+ }
+ 
+ .main-navigation {
+   /* Временно для сетки */
+   display: flex;
+   min-height: 285px;
+   justify-content: space-between;
+ }
+ 
+ .main-header-logo {
+   width: 160px;
+   height: 65px;
+ }
+ 
+ .site-navigation {
+   display: flex;
+   justify-content: space-between;
+   width: 560px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   /* Временно для сетки */
+   min-height: 70px;
+ }
+ 
+ .cart {
+   width: 160px;
+   margin: 0;
+   padding: 0;
+   /* Временно для сетки */
+   min-height: 70px;
+ }
+ 
+ .services-list {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 80px;
+ }
+ 
+ .features {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   width: 300px;
+   /* Временно для сетки */
+   min-height: 427px;
+ }
+ 
+ .about-us {
+   display: flex;
+   justify-content: space-around;
+   padding: 120px 47px;
+   /* Временно для сетки */
+   background-image: none;
+   background-color: transparent;
+   margin-bottom: 60px;
+ }
+ 
+ .studio {
+   width: 660px;
+   /* Временно для сетки */
+   min-height: 526px;
+ }
+ 
+ .statistics {
+   widht: 360px;
+   /* Временно для сетки */
+   min-height: 526px;
+ }
+
+ .digits {
+   display: flex;
+ }
+ 
+ .indicators {
+   display: flex;
+ }
+ 
+ 
+ .project {
+   display: flex;
+   justify-content: space-around;
+   margin: 0;
+   padding: 0;
+   margin-bottom: 80px;
+ }
+ 
+ .maps {
+   display: flex;
+   flex-direction: row;
+   margin: 0;
+   padding: 0;
+   margin-bottom: 69px;
+   width: 319px 308px;
+ }
+ 
+ .main-footer {
+   margin-top: 65px;
+ }
+ 
+ .main-footer {
+   display: flex;
+   margin: 0;
+ }
+ 
+ .social-networks {
+   display: flex;
+ }
+ 
+ .footer-social {
+   display: flex;
+   flex-direction: column;
+   margin-left: 120px;
+ }
+
+ .inner-page .main-header {
+   margin-bottom: 60px;
+   /* Временно для сетки */
+   min-height: 355px;
+   background-color: #eeeeee;
+ }
+ 
+ .inner-page .main-navigation {
+   /* Временно для сетки */
+   display: flex;
+   min-height: 285px;
+   justify-content: space-between;
+ }
+ 
+ .inner-page .main-header-logo {
+   width: 160px;
+   height: 65px;
+   padding-left: 120px;
+   padding-top: 49px;
+ }
+ 
+ .inner-page .site-navigation {
+   display: flex;
+   justify-content: space-between;
+   width: 560px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   /* Временно для сетки */
+   min-height: 70px;
+   padding-top: 90px;
+ }
+ 
+ .inner-page .basket {
+   width: 160px;
+   margin: 0;
+   padding: 0;
+   /* Временно для сетки */
+   min-height: 70px;
+   padding-top: 90px;
+ }
+ 
+ .page-title {
+   display: flex;
+   justify-content: center;
+   margin: 0px;
+   padding: 0px;
+   padding-bottom: 117px;
+ }
+ 
+ .catalog-columns {
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ .wrapper {
+   display: flex;
+   justify-content: flex-end;
+ }
+ 
+ .filter-templates-wrapper {
+   display: flex;
+ }
+
+ .templates-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ .templates {
+   width: 360px;
+   margin-bottom: 33px;
+   margin-right: 40px;
+ 
+ }
+ 
+ .paginator-wrapper {
+   display:flex;
+   justify-content: center; 
+   padding: 0;
+   margin: 0;
  }

@@ -8,22 +8,21 @@
    <link href="css/style.css" rel="stylesheet">
  </head>
  <body>
+   <div class="index-wrapper">
    <header class="main-header">
      <nav class="main-navigation">
-       <a class="main-header-logo" href="#">
-          <img src="img/nerds-logo.svg" width="667" height="271 alt="Логотип Веб-студии Nerds">
+       <a class="main-header-logo" href="index.html.html">
+          <img src="img/nerd-logo.svg" width="160" height="65" alt="Логотип Веб-студии Nerds">
        </a>
        <ul class="site-navigation">
          <li><a href="#">Студия</a></li>
          <li><a href="#">Клиенты</a></li>
-         <li class="site-navigation-current"><a href="#">Магазин</a></li>
+         <li><a href="catalog.html">Магазин</a></li>
          <li><a href="#">Контакты</a></li>
         </ul>
       <a class="cart" href="#">Корзина</a>
      </nav>
      <h1>Магазин готовых шаблонов</h1>
-   </header>
-   <main class="container">
      <!--здесь будет слайдер-->
      <h1 class="visually-hidden">Веб-студия Nerds</h1>
      <section class="slider">
@@ -31,52 +30,56 @@
         <ul class="slider-list">
         </ul>
      </section>
-     <section class="features">
-        <ul class="features-list">
-          <li class="feature-item">
-           <img src="img/notebookpicture.jpg" alt="Сайты" width="300" height="146">
+   </header>
+   </div>
+   <main class="container">
+     <div class="index-wrapper">
+     <div class="features-list">
+        <section class="features">
+           <img src="img/notebookpicture.jpg" alt="Сайты" width="300" height="146" alt="картинка ноутбука">
            <h3>Веб-сайты</h3>
            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
            <a class="order-button-one" href="#">Заказать</a>
-          </li>
-          <li class="feature-item">
-           <img src="img/smartphonepicture.jpg" width="300" height="146" alt="Приложения">
+        </section>
+        <section class="features">
+           <img src="img/smartphonepicture.jpg" width="300" height="146" alt="картинка смартфона">
            <h3>Приложения</h3>
            <p>Покорите топ-10 приложений в AppStrore и Google Play</p>
            <a class="order-button-two" href="#">Заказать</a>
-          </li>
-          <li class="feature-item">
-           <img src="img/presentationpicture.jpg" width="300" height="146" alt="Презентации">
+        </section>
+        <section class="features">
+           <img src="img/presentationpicture.jpg" width="300" height="146" alt="картинка презентации">
            <h3>Презентации</h3>
            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
            <a class="order-button-three" href="#">Заказать</a>
-          </li>
-        </ul>
-     </section>
-     <section class="studio">
-        <h3 class="studio-caption">Мы - маленькая, но гордая дизайн студия из Краснодара.</h3>
-        <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.
-        </p>
-        <h3 class="orders">Выполняем заказы на разработку:</h3>
-        <ul class="development-orders">
-          <li class="type-orders">Веб-сайтов любой сложности</li>
-          <li class="type-orders">Мобильных приложений под ios и android</li>
-          <li class="type-orders">Слайдшоу и видео для корпоративных презентаций</li>
-        </ul>
-     </section>
+        </section>
+     </div>
+     <div class="about-us">
+        <section class="studio">
+           <h3 class="studio-caption">Мы - маленькая, но гордая дизайн студия из Краснодара.</h3>
+           <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.
+           </p>
+           <h3 class="orders">Выполняем заказы на разработку:</h3>
+           <ul class="development-orders">
+             <li class="type-orders">Веб-сайтов любой сложности</li>
+             <li class="type-orders">Мобильных приложений под ios и android</li>
+             <li class="type-orders">Слайдшоу и видео для корпоративных презентаций</li>
+           </ul>
+        </section>
      <div class="statistics">
        <img src="img/nerdsillustration.jpg" width="360" height="208" alt="Логотип Nerds">
-       <p>С 2004 года любим точность во всем</p>
-        <ul class="digits">
-          <li class="percent">146%</li>
-          <li class="percent">100%</li>
-          <li class="percent">50%</li>
-        </ul>
-        <ul class="indicators">
-          <li class="indicators-type">Уровень самоотдачи</li>
-          <li class="indicators-type">Соблюдение сроков</li>
-          <li class="indicators-type">минимальная предоплата</li>
-        </ul>
+           <p>С 2004 года любим точность во всем</p>
+           <ul class="digits">
+             <li class="percent">146%</li>
+             <li class="percent">100%</li>
+             <li class="percent">50%</li>
+           </ul>
+           <ul class="indicators">
+             <li class="indicators-type">Уровень самоотдачи</li>
+             <li class="indicators-type">Соблюдение сроков</li>
+             <li class="indicators-type">минимальная предоплата</li>
+           </ul>
+     </div>
      </div>
      <section class="portfolio">
         <ul class="project">
@@ -102,6 +105,7 @@
           </li>
         </ul>
      </section>
+     </div>
       <img src="img/map1.jpg" width="1440" height="416" alt="Карта">
      <div class="maps">
       <form>
@@ -116,17 +120,20 @@
       </form>
      </div>
    </main>
-    <footer class="main-footer">
-    <div class="footer-social">
+    <div class="index-wrapper">
+     <footer class="main-footer">
        <ul class="social-networks">
          <li><a class="social-button" href="#">Вконтакте</a></li>
          <li><a class="social-button" href="#">Фэйсбук</a></li>
          <li><a class="social-button" href="#">Инстаграм</a></li>
        </ul>
-         <p>
+       <div class="footer-social">
+        <p>
            <b>Давайте дружить, друзья это выгодно!</b>
         </p>
         <p>Скидка 10% для друзей из социальных сетей.</p>
+       </div>
+     </footer>
     </div>
     <div class="modal">
       <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
@@ -149,6 +156,5 @@
        </fieldset>
       </form>
     </div>
-    </footer>
  </body>
  </html>
